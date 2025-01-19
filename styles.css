@@ -1,0 +1,346 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: 'Cinzel', serif;
+    background-color: black;
+
+     
+}
+.bg-image {
+    position: relative; /* Allow positioning of child elements */
+    height: 100vh; /* Full viewport height */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center;
+    background-attachment: fixed; /* Optional for parallax effect */
+    background-repeat: no-repeat;
+
+
+    
+}
+
+/* Background images for each section */
+.image1 {
+    background-image: url(images/bg2.png);
+    position: relative;
+    top: -90px;
+
+
+}
+.image2 {
+    background-image: url(images/dougga10.jpg);
+}
+.etape1 {
+    background-image: url(images/dougga3.jpg);
+}
+.etape2  {
+    background-image: url(images/dougga1.png);
+}
+.etape3{
+    background-image: url(images/Mad5el.jpg);
+}
+.etape4{
+    background-image: url(images/dougga7.jpg);
+}
+.etape5{
+    background-image: url(images/dougga20.jpg);
+}
+.image12{
+	background-image: url(images/bg333.jpg);
+	position: relative; /* Allow positioning of child elements */
+    height: 100vh; /* Full viewport height */
+    width: 100%;
+    background-size: contain; /* Cover the entire viewport */
+    background-position: center;
+    /*background-attachment: fixed;*/ /* Optional for parallax effect */
+    background-repeat: no-repeat;
+    position: relative;
+    top: -15px;
+}
+
+
+
+
+header {
+
+  display: flex;
+  padding: 20px;
+  height: 30px;
+  width: 70%;
+  justify-content: space-around;
+  border-radius: 10px;
+  margin-left: 350px;
+  /*background-color:#f5f5dc ;*/
+
+  
+  font-size: 24px;
+  /*box-shadow: 4px 4px 4px black;*/
+  
+
+  
+  
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 15px;
+  z-index: 1000;
+}
+.dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+
+.dropdown-content {
+      display: none;
+      position: absolute;
+      top: 100%; /* Juste en dessous de l'élément parent */
+      left: 0;
+      background-color: white;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      min-width: 130px;
+      z-index: 1000;
+    }
+
+/* Style des liens dans la liste déroulante */
+.dropdown-content a {
+      color: #333;
+      text-decoration: none;
+      padding: 2px 3px;
+      display: block;
+    }
+
+    /* Effet au survol des liens dans la liste */
+.dropdown-content a:hover {
+      background-color: #f0f0f0;
+    }
+
+    /* Afficher la liste déroulante au survol */
+.dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+#logo1{
+	 
+	 height: 170px;
+	 width: 210px;
+	 float: left;
+	 border-radius: 500px;
+	 position: relative;
+	 left: 60px;
+	 z-index: 55;
+}
+a {
+    text-decoration: none !important; 
+}
+
+.header-item{
+	
+	color: #6f4e37;
+    text-shadow:5px 4px 8px black ;
+}
+
+
+.header-item:hover {
+    color: #FFD700;
+     
+    transition: transform 0.3s ease, color 0.3s ease, text-decoration 0.3s ease;
+    transform: scale(1.1);
+    border-bottom: 1px solid #FFD700;
+    
+}
+
+#home1 {
+  display: flex;
+  
+  align-items: center; /* Align items vertically */
+  padding: 20px; /* Add padding for spacing */
+
+
+
+}
+.pc {
+  
+   
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.2); /* Softer shadow */
+  
+  transition: transform 0.3s ease;
+  box-shadow: 6px 8px 5px black;
+}
+
+#pc1{
+    height: 350px;
+  width: 380px;
+	position: relative;
+	top: 130px;
+}
+.pc:hover {
+  transform: scale(1.05);
+}
+
+#pc2{
+    height: 350px;
+    width: 380px;
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+
+
+
+#txt1{
+	position: relative;
+	top: 130px;
+	height: 320px;
+	font-size: 18px;
+	background-color: #f5f5dc;
+	color: darkgreen;
+	margin-left: 170px;
+	border-radius: 40px 5px;
+	padding: 20px; 
+	box-shadow: 4px 4px 5px black;
+	position: relative;
+	left: -70px;
+
+}
+
+#txt2 {
+	height: 340px;
+	font-size: 18px;
+	background-color: #f5f5dc;
+	color: darkgreen;
+	margin-left: 100px;
+	width: 720px;
+	border-radius: 40px 5px;
+	padding: 12px 20px; 
+	box-shadow: 4px 4px 5px black;
+	position: relative;
+	top: 100px;
+}
+
+#home2{
+	display: flex;
+	align-items: center;
+	padding: 20px;
+
+
+}
+
+#homep{
+	
+	position: relative;
+    top: -50px;
+	
+}
+#home2p{
+	position: relative;
+	top: -60px;
+}
+
+
+.etape{
+    width: 380px;
+    height: 400px;
+    object-fit: cover;
+    box-shadow: 9px 9px 10px black;
+    border-radius: 8px;
+    position: relative;
+    
+}
+#etape1 , #etape2 , #etape3 , #etape4{
+    display: flex;
+    
+    justify-content: space-around;
+}
+
+.etape1{
+    position: relative;
+    top: -97px;
+}
+.etape2{
+    position: relative;
+    top: -96px;
+}
+.etape3{
+    position: relative;
+    top: -95px;
+}
+.etape4{
+    position: relative;
+    top: -94px;
+}
+.etape5{
+    position: relative;
+    top: -93px;
+}
+
+h3{
+    
+    
+    position: relative;
+    top: 50px;
+    left: 40px;
+    z-index: 100;
+    
+    width: 380px;
+    height: 80px;
+    
+    
+    
+    
+
+    
+    
+    font-size: 48px; /* Exemple de taille */
+    font-weight: bold; /* Optionnel, pour un texte plus visible */
+
+}
+
+
+#txte1 , #txte2 , #txte3 , #txte4 , #txte5{
+    height: 240px;
+    font-size: 19px;
+    background-color: #f5f5dc;
+    color: #6f4e37;
+    margin-left: 100px;
+    width: 780px;
+    border-radius: 40px 5px;
+    padding: 12px; 
+    box-shadow: 4px 4px 5px black;
+    position: relative;
+    top: 60px;
+    left: -30px;
+    z-index: 500;
+
+}
+#txte2 , #txte3 , #txte4{
+    position: relative;
+    top: 210px;
+
+}
+#txte5{
+    position: relative;
+    top: 200px;
+    left: 200px;
+    height: 260px;
+}
+
+
+
+
+em[title="kk"] , #txte1 > p , #txte2 > p , #txte3 > p , #txte4 > p  {
+    position: relative;
+    left: 40px ;
+    
+}
+
+#vd2 , #vd3 , #vd4{
+    position: relative;
+    top: 130px;
+    
+ }
+ .etape5{
+    text-align: center;
+ }
